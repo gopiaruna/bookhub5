@@ -1,0 +1,37 @@
+.small-logout-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.small-nav-links-cont {
+  display: flex;
+  height: 40px;
+  background-size: cover;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-around;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .small-nav-links-cont {
+    display: none;
+  }
+}
+
+.small-theme-btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.is-white {
+  background-color: rgb(219, 233, 252);
+}
+.is-dark {
+  background-color: black;
+}
